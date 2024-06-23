@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+   width: 100%;
+   height: 100%;
+font-family: Inter;
+}
+.adress p
+{
+    color: hsl(75, 94%, 57%);
+}
+.container{
+   background-color: antiquewhite;
+   height: 600px;
+   width:350px;
+   margin:120px auto ;
+   background-color: hsl(0, 0%, 12%);
+   border-radius: 30px;
+   
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.main-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+   
+
+}
+img{
+    border-radius: 50%;
+    width: 100px;
+    margin: 50px 0 0 0;
+}
+.image{
+
+}
+.head{
+ padding: 10px;
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    
+}
+.adress{
+    padding: 10px;
+    font-weight: 700;
+    font-size: 0.9em;
+}
+.pp{
+    color: hsl(0, 4%, 67%);
+    font-weight: 400;
+   padding: 20px;
+   max-width 100% ;
+}
+a{
+    text-decoration: none;
+    background-color:hsl(0, 0%, 20%) ;
+    margin: 10px;
+    text-align: center;
+    color: white;
+}
+.butt{
+ max-width: 100%;
+ width: 200px;
+ padding: 10px 25px;
+
+}
